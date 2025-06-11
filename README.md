@@ -129,7 +129,7 @@ Nossa análise revelou vários insights importantes para a TelecomX:
 
 Esta análise exploratória é um ponto de partida. Os próximos passos podem incluir:
 
-*   **Modelagem de Dados: Incluir as datas do Início do contrato e do Chun.
+*   **Modelagem de Dados:** Incluir as datas do Início do contrato e do Chun.
 *   **Analisar: satisfação e feedback dos clientes** para ajustes estratégicos.
 *   **Modelagem Preditiva:** Desenvolver modelos de machine learning para prever quais clientes têm maior probabilidade de churn.
 *   **Análise de Custo-Benefício:** Avaliar o impacto financeiro das estratégias de retenção propostas.
