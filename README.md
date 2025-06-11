@@ -21,7 +21,7 @@
 
 A TelecomX é uma empresa de telecomunicações vibrante, mas que enfrenta um desafio comum no setor: a perda de clientes, ou "churn". Cada cliente que cancela o serviço representa não apenas uma receita perdida, mas também uma oportunidade de entender e melhorar a experiência do cliente. Esta análise embarca em uma jornada pelos dados da TelecomX para descobrir os padrões e fatores que levam os clientes a desistir, fornecendo insights valiosos para estratégias de retenção.
 
-## 🎯 Nosso Objetivo: Entender e Combater o Churn
+<span style="color: orange;">## 🎯 Nosso Objetivo: Entender e Combater o Churn</span>
 
 O principal objetivo desta análise é identificar os principais motivadores por trás do churn de clientes na TelecomX. Ao entender "quem" está saindo e "por quê", podemos direcionar esforços de retenção de forma mais eficaz e construir um relacionamento mais sólido com nossos clientes.
 
