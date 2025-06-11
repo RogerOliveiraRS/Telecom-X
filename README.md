@@ -1,19 +1,8 @@
-# Análise de Churn de Clientes da TelecomX
+![Capa do Repositório](https://github.com/RogerOliveiraRS/Telecom-X/blob/main/imagens/celular-telefonia-movel-espectro-radiofrequencia-freepik-768x492.jpg?raw=true)
 
-## 📚 Índice
-- [Nosso Objetivo: Entender e Combater o Churn](#nosso-objetivo-entender-e-combater-o-churn)
-- [A Caixa de Ferramentas: Limpeza e Preparação dos Dados](#a-caixa-de-ferramentas-limpeza-e-preparacao-dos-dados)
-- [Mapeando o Terreno: Explorando os Fatores de Churn](#mapeando-o-terreno-explorando-os-fatores-de-churn)
-- [Contratos e Desistência: Um Relacionamento Curto e Intenso](#contratos-e-desistencia-um-relacionamento-curto-e-intenso)
-- [Gênero: Uma Surpreendente Equidade na Desistência](#genero-uma-surpreendente-equidade-na-desistencia)
-- [Senioridade: Um Olhar Atento para a Geração 65+](#senioridade-um-olhar-atento-para-a-geracao-65)
-- [Tempo de Contrato: Os Primeiros Meses São Críticos](#tempo-de-contrato-os-primeiros-meses-sao-criticos)
-- [Serviços Contratados: Onde o Valor se Conecta com a Fidelidade](#servicos-contratados-onde-o-valor-se-conecta-com-a-fidelidade)
-- [Charges Mensais: O Preço da Fidelidade?](#charges-mensais-o-preco-da-fidelidade)
-- [Métodos de Pagamento: Uma Questão de Confiança e Conveniência](#metodos-de-pagamento-uma-questao-de-confianca-e-conveniencia)
-- [Insights Chave e Recomendações Estratégicas](#insights-chave-e-recomendacoes-estrategicas)
-- [Próximos Passos](#proximos-passos)
-- [Conclusão](#conclusao)
+
+
+# Análise de Churn de Clientes da TelecomX
 
 
 ---
@@ -58,7 +47,71 @@ Nossa jornada começou com os dados brutos da TelecomX, armazenados em um arquiv
 
 ---
 
+## <span style="color: orange;">📊 Execução da Análise: Explorando os Fatores de Churn</span>
+
+Após a preparação dos dados, iniciamos a análise exploratória para entender **quais fatores influenciam a taxa de desistência dos clientes**. Abaixo, cada etapa é acompanhada dos gráficos gerados.
+
+---
+
+### <span style="color: orange;">📈 Distribuição do Tempo de Contrato</span>
+
+A análise da duração dos contratos revelou padrões importantes sobre **quando os clientes tendem a cancelar**. A maioria dos cancelamentos ocorre nos primeiros meses, com uma estabilização após esse período.
+
+![Distribuição do Tempo de Contrato](https://github.com/RogerOliveiraRS/Telecom-X/blob/main/imagens_graficos/grafico_histograma_distrib_tempo_contrato_clientes.png)
+
+Para aprofundar a relação entre **tempo de contrato e desistência**, comparamos a distribuição entre clientes que cancelaram e os que permaneceram ativos:
+
+![Cancelados vs Não Cancelados](https://github.com/RogerOliveiraRS/Telecom-X/blob/main/imagens_graficos/grafico_histog_2linhas_Cancelados_vs_noCancelados.png)
+
+---
+
+### <span style="color: orange;">📊 Contratos e Taxa de Churn</span>
+
+A relação entre **tipo de contrato e churn** mostra que **contratos mensais possuem a maior taxa de desistência**, enquanto contratos mais longos resultam em maior retenção.
+
+![Percentual de Desistência por Tipo de Contrato](https://github.com/RogerOliveiraRS/Telecom-X/blob/main/imagens_graficos/grafico_barras_Percentual_Desist%C3%AAncia_vs_Tipo_Contrato.png)
+
+Para investigar a influência das cobranças mensais, analisamos **a relação entre tempo de contrato e contas mensais**:
+
+![Scatterplot Tempo de Contrato vs Contas Mensais](https://github.com/RogerOliveiraRS/Telecom-X/blob/main/imagens_graficos/grafico_scatter_Tempo_Contrato_Contas%20mensais_vs_Desistencia.png)
+
+---
+
+### <span style="color: orange;">🧑‍🤝‍🧑 Perfil Demográfico e Churn</span>
+
+Exploramos como **gênero e idade** influenciam na taxa de churn. Descobrimos que **não há diferença significativa entre homens e mulheres** na desistência.
+
+![Desistência por Gênero](https://github.com/RogerOliveiraRS/Telecom-X/blob/main/imagens_graficos/grafico_pizza_Desist_por_genero.png)
+
+Já a **senioridade (65+) se mostrou um fator relevante**. Clientes mais velhos têm maior propensão ao cancelamento, como visto na análise comparativa:
+
+![Desistência por Idade](https://github.com/RogerOliveiraRS/Telecom-X/blob/main/imagens_graficos/grafico_2%20pizzas_desist%C3%AAncia_%2065%2B_vs_jovens.png)
+
+Para reforçar essa análise, utilizamos um **gráfico de regressão** mostrando a relação entre senioridade e taxa de desistência:
+
+![Regressão Senioridade](https://github.com/RogerOliveiraRS/Telecom-X/blob/main/imagens_graficos/grafico_regress%C3%A3o_senioridade.png)
+
+---
+
+### <span style="color: orange;">💼 Serviços Contratados e Retenção</span>
+
+A análise dos serviços mostrou que **certos serviços aumentam a retenção, enquanto outros têm menor impacto**. O **heatmap** abaixo ilustra a relação entre serviços contratados e taxa de churn:
+
+![Taxa de Desistência por Serviço](https://github.com/RogerOliveiraRS/Telecom-X/blob/main/imagens_graficos/grafico_heatmap_tx_de_desistencia_vs_servico_oferecido.png)
+
+---
+
+### <span style="color: orange;">💳 Métodos de Pagamento e Fidelização</span>
+
+Os métodos de pagamento também influenciam na retenção dos clientes. Identificamos que **clientes com contratos mais curtos tendem a evitar pagamentos automáticos**, enquanto **contratos mais longos têm maior uso de cartão de crédito ou transferência bancária**.
+
+![Distribuição do Método de Pagamento vs Tempo de Contrato](https://github.com/RogerOliveiraRS/Telecom-X/blob/main/imagens_graficos/Grafico_barras_Distrib_Perc_M%C3%A9todo_pgto_vs_tempo_contrato.png)
+
+---
+
+
 ## <span style="color: orange;">💡 Insights Chave e Recomendações Estratégicas</span>
+
 Nossa análise revelou vários insights importantes para a TelecomX:
 - **Focar na retenção inicial:** Melhorar a experiência nos primeiros meses pode reduzir a desistência.
 - **Criar estratégias para clientes 65+:** Essa faixa etária tem taxas mais altas de churn e pode se beneficiar de um atendimento mais personalizado.
