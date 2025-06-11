@@ -4,9 +4,9 @@
 
 ## 📚 Índice
 
-*   [🎯 Nosso Objetivo: Entender e Combater o Churn](#-nosso-objetivo-entender-e-combater-o-churn)
-*   [🛠️ A Caixa de Ferramentas: Limpeza e Preparação dos Dados](#-a-caixa-de-ferramentas-limpeza-e-preparação-dos-dados)
-*   [🗺️ Mapeando o Terreno: Explorando os Fatores de Churn](#-mapeando-o-terreno-explorando-os-fatores-de-churn)
+*   [🎯 Nosso Objetivo: Entender e Combater o Churn](#nosso-objetivo-entender-e-combater-o-churn)
+*   [🛠️ A Caixa de Ferramentas: Limpeza e Preparação dos Dados](#a-caixa-de-ferramentas-limpeza-e-preparação-dos-dados)
+*   [🗺️ Mapeando o Terreno: Explorando os Fatores de Churn](#mapeando-o-terreno-explorando-os-fatores-de-churn)
     *   [Contratos e Desistência: Um Relacionamento Curto e Intenso](#contratos-e-desistência-um-relacionamento-curto-e-intenso)
     *   [Gênero: Uma Surpreendente Equidade na Desistência](#gênero-uma-surpreendente-equidade-na-desistência)
     *   [Senioridade: Um Olhar Atento para a Geração 65+](#senioridade-um-olhar-atento-para-a-geração-65)
