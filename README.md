@@ -2,6 +2,21 @@
 
 # Análise de Churn de Clientes da TelecomX
 
+## 📚 Índice
+
+*   [🎯 Nosso Objetivo: Entender e Combater o Churn](#-nosso-objetivo-entender-e-combater-o-churn)
+*   [🛠️ A Caixa de Ferramentas: Limpeza e Preparação dos Dados](#-a-caixa-de-ferramentas-limpeza-e-preparação-dos-dados)
+*   [🗺️ Mapeando o Terreno: Explorando os Fatores de Churn](#-mapeando-o-terreno-explorando-os-fatores-de-churn)
+    *   [Contratos e Desistência: Um Relacionamento Curto e Intenso](#contratos-e-desistência-um-relacionamento-curto-e-intenso)
+    *   [Gênero: Uma Surpreendente Equidade na Desistência](#gênero-uma-surpreendente-equidade-na-desistência)
+    *   [Senioridade: Um Olhar Atento para a Geração 65+](#senioridade-um-olhar-atento-para-a-geração-65)
+    *   [Tempo de Contrato: Os Primeiros Meses São Críticos](#tempo-de-contrato-os-primeiros-meses-são-críticos)
+    *   [Serviços Contratados: Onde o Valor se Conecta com a Fidelidade](#serviços-contratados-onde-o-valor-se-conecta-com-a-fidelidade)
+    *   [Charges Mensais: O Preço da Fidelidade?](#charges-mensais-o-preço-da-fidelidade)
+    *   [Métodos de Pagamento: Uma Questão de Confiança e Conveniência](#métodos-de-pagamento-uma-questão-de-confiança-e-conveniência)
+*   [💡 Insights Chave e Recomendações Estratégicas](#-insights-chave-e-recomendações-estratégicas)
+*   [📊 Próximos Passos](#-próximos-passos)
+
 ## 🚀 A Jornada de Descoberta por Trás da Desistência de Clientes
 
 A TelecomX é uma empresa de telecomunicações vibrante, mas que enfrenta um desafio comum no setor: a perda de clientes, ou "churn". Cada cliente que cancela o serviço representa não apenas uma receita perdida, mas também uma oportunidade de entender e melhorar a experiência do cliente. Esta análise embarca em uma jornada pelos dados da TelecomX para descobrir os padrões e fatores que levam os clientes a desistir, fornecendo insights valiosos para estratégias de retenção.
