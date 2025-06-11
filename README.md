@@ -2,7 +2,7 @@
 
 ## 📚 Índice
 - [Nosso Objetivo: Entender e Combater o Churn](#nosso-objetivo-entender-e-combater-o-churn)
-- [A Caixa de Ferramentas: Limpeza e Preparação dos Dados](#a-caixa-de-ferramentas-limpeza-e-preparação-dos-dados)
+- [A Caixa de Ferramentas: Limpeza e Preparação dos Dados](#a-caixa-de-ferramentas-limpeza-e-preparacao-dos-dados)
 - [Mapeando o Terreno: Explorando os Fatores de Churn](#mapeando-o-terreno-explorando-os-fatores-de-churn)
 - [Contratos e Desistência: Um Relacionamento Curto e Intenso](#contratos-e-desistencia-um-relacionamento-curto-e-intenso)
 - [Gênero: Uma Surpreendente Equidade na Desistência](#genero-uma-surpreendente-equidade-na-desistencia)
@@ -14,6 +14,7 @@
 - [Insights Chave e Recomendações Estratégicas](#insights-chave-e-recomendacoes-estrategicas)
 - [Próximos Passos](#proximos-passos)
 - [Conclusão](#conclusao)
+
 
 ---
 
