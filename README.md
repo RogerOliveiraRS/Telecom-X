@@ -114,7 +114,7 @@ Os métodos de pagamento também influenciam na retenção dos clientes. Identif
 
 Nossa análise revelou vários insights importantes para a TelecomX:
 - **Focar na retenção inicial:** Melhorar a experiência nos primeiros meses pode reduzir a desistência.
-- **Criar estratégias para clientes 65+:** Essa faixa etária tem taxas mais altas de churn e pode se beneficiar de um atendimento mais personalizado.
+- **Criar estratégias para clientes 65+:** Essa faixa etária tem taxas mais altas de churn e pode se beneficiar de um atendimento mais personalizado, visto que há picos de desistência antes dos períodos de vencimento dos contratos.
 - **Aprimorar a experiência com Fibra Óptica e Paperless Billing:** Avaliar possíveis problemas nesses serviços e oferecer suporte melhor.
 - **Destacar serviços de segurança e suporte técnico:** Clientes com esses serviços tendem a permanecer por mais tempo.
 - **Reavaliar preços e benefícios para clientes de alto consumo:** Ajustes na precificação podem melhorar a retenção.
